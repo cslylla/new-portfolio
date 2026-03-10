@@ -1,36 +1,118 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio
+
+A responsive, high-end portfolio website showcasing professional experience in customer-facing engineering, integrations, automation, and technical delivery.
+
+**Context:** This project was built as part of [Codecademy's AI Maker Bootcamp](https://www.codecademy.com/) — a program focused on building AI-assisted development skills and creating production-ready web applications.
+
+---
+
+## Tech Stack
+
+- **Framework:** [Next.js 16](https://nextjs.org/) (App Router)
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **Language:** TypeScript
+
+---
+
+## Features
+
+- **Sticky navbar** with smooth scroll navigation
+- **Hero section** with professional photo and CTAs
+- **Expertise section** with bento-style cards (Integrations, Debugging, Customer Delivery, Languages) plus Developer Tools and Computer Skills
+- **Experiences section** with work history, extracurricular activities, and LinkedIn link
+- **Certifications** in a yellow card layout
+- **Projects grid** (9 projects) with click-to-open modals
+- **Connect section** with social links and developer illustration
+- **Footer** with social icons and GitHub credit
+- **SEO:** Meta tags, Open Graph, Twitter cards, sitemap, robots.txt
+- **Accessibility:** ARIA labels, semantic HTML, keyboard navigation
+
+---
+
+## Project Structure
+
+```
+src/
+├── app/
+│   ├── layout.tsx      # Root layout, fonts, metadata
+│   ├── page.tsx        # Home page
+│   ├── globals.css     # Design tokens, Tailwind theme
+│   ├── sitemap.ts      # Dynamic sitemap
+│   └── robots.ts       # robots.txt
+├── components/
+│   ├── Navbar.tsx
+│   ├── Hero.tsx
+│   ├── Expertise.tsx
+│   ├── Experiences.tsx
+│   ├── Certifications.tsx
+│   ├── Projects.tsx
+│   ├── ProjectModal.tsx
+│   ├── Connect.tsx
+│   └── Footer.tsx
+├── data/
+│   └── projects.ts     # Project data and images
+└── images/
+```
+
+---
+
+## Design Tokens
+
+- **Canvas:** `#dfe0df` (Main White)
+- **Primary Text:** `#402e32` (Main Brown)
+- **Accent:** `#dba11c` (Accent Gold)
+- **Fonts:** Candal (headings), Cabin (body)
+
+---
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18+
+- npm (or yarn, pnpm)
+
+### Installation
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+### Environment Variables (Optional)
 
-To learn more about Next.js, take a look at the following resources:
+Create a `.env.local` file to customize the site URL for metadata and sitemap:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+NEXT_PUBLIC_SITE_URL=https://yourdomain.com
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The easiest way to deploy is with [Vercel](https://vercel.com):
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Push your code to GitHub
+2. Import the project in [Vercel](https://vercel.com/new)
+3. Add `NEXT_PUBLIC_SITE_URL` in project settings if needed
+4. Deploy
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). Built by [cslylla](https://github.com/cslylla).

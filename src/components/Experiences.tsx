@@ -1,6 +1,8 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
+import contactImg from "@/images/contact.svg";
 
 const experiences = [
   {
@@ -61,7 +63,8 @@ export function Experiences() {
       >
         Experiences
       </motion.h2>
-      <div className="space-y-10">
+      <div className="flex flex-col gap-8 lg:flex-row lg:items-center lg:gap-10">
+        <div className="flex-1 space-y-10">
         {experiences.map((exp, index) => (
           <motion.article
             key={exp.role + exp.company}
@@ -87,6 +90,21 @@ export function Experiences() {
             </p>
           </motion.article>
         ))}
+        </div>
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          className="flex shrink-0 items-center justify-center lg:justify-end"
+        >
+          <Image
+            src={contactImg}
+            alt="Working remotely illustration"
+            width={280}
+            height={156}
+            className="h-auto w-40 object-contain sm:w-48 md:w-56 lg:w-64"
+          />
+        </motion.div>
       </div>
       <motion.div
         initial={{ opacity: 0, y: 20 }}
