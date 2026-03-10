@@ -12,12 +12,14 @@ export default function Home() {
     <div className="min-h-screen bg-[#dfe0df]">
       <Navbar />
       <main role="main">
-        <Hero />
-        <Expertise />
-        <Experiences />
-        <Certifications />
-        <Projects />
-        <Connect />
+        <div className="mx-auto max-w-7xl">
+          <Hero />
+          <Expertise />
+          <Experiences />
+          <Certifications />
+          <Projects />
+          <Connect />
+        </div>
         <Footer />
       </main>
     </div>

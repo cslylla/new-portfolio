@@ -4,19 +4,37 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import heroImg from "@/images/hero.jpg";
+import heroBgImg from "@/images/hero-bg.png";
 
 export function Hero() {
   return (
     <section
       id="about"
-      className="grid min-h-[80vh] grid-cols-1 items-center gap-12 px-6 py-16 md:grid-cols-2 md:gap-16 md:px-12 lg:px-24"
+      className="relative flex min-h-[80vh] items-center justify-center overflow-hidden px-6 py-16 md:px-12 lg:px-24"
     >
+      {/* Full-width background image */}
+      <div
+        className="absolute inset-0 left-1/2 z-0 w-screen -translate-x-1/2"
+        aria-hidden
+      >
+        <Image
+          src={heroBgImg}
+          alt=""
+          fill
+          className="object-cover object-center"
+          priority
+          sizes="100vw"
+        />
+      </div>
+      {/* Content overlay */}
+      <div className="relative z-10 flex w-full max-w-5xl flex-col items-center justify-center">
+      <div className="grid w-full max-w-5xl grid-cols-1 items-center gap-8 md:grid-cols-[minmax(280px,480px)_1fr] md:gap-12">
       <motion.div
         initial={{ opacity: 0, x: -30 }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true, margin: "-50px" }}
         transition={{ duration: 0.6 }}
-        className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-[0_8px_30px_rgba(64,46,50,0.25)] md:aspect-[3/4]"
+        className="relative aspect-[4/3] w-full min-w-0 overflow-hidden rounded-2xl shadow-[0_8px_30px_rgba(64,46,50,0.25)] md:aspect-[3/4]"
       >
         <Image
           src={heroImg}
@@ -68,6 +86,8 @@ export function Hero() {
           </a>
         </div>
       </motion.div>
+      </div>
+      </div>
     </section>
   );
 }
