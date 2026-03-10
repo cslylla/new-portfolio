@@ -30,7 +30,7 @@ const experiences = [
 
 const extracurricular = [
   {
-    role: "Open-SourceContributor (Technical Writer)",
+    role: "Open-Source Contributor (Technical Writer)",
     organization: "Codecademy",
     location: "Online",
     period: "Nov 2022 — Nov 2023",
