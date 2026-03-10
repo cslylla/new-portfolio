@@ -48,30 +48,14 @@ export const metadata: Metadata = {
     title: "Lilla Csanaky | Customer Solutions Engineer",
     description:
       "Customer-facing engineering experience across integrations, automation, debugging, onboarding, and cross-functional delivery in SaaS environments.",
-    images: [
-      {
-        url: `${siteUrl}/og-preview.png`,
-        width: 1200,
-        height: 630,
-        alt: "Lilla Csanaky - Customer Solutions Engineer",
-        type: "image/png",
-      },
-    ],
+    // Image handled by app/opengraph-image.png (Next.js file convention)
   },
   twitter: {
     card: "summary_large_image",
     title: "Lilla Csanaky | Customer Solutions Engineer",
     description:
       "Customer-facing engineering experience across integrations, automation, and technical delivery in SaaS environments.",
-    images: [
-      {
-        url: `${siteUrl}/og-preview.png`,
-        width: 1200,
-        height: 630,
-        alt: "Lilla Csanaky - Customer Solutions Engineer",
-        type: "image/png",
-      },
-    ],
+    // Image handled by opengraph-image.png (shared with OG)
   },
   robots: {
     index: true,
