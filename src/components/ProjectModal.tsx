@@ -87,18 +87,16 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
               <p className="mb-6 font-body text-base leading-relaxed text-[#402e32]">
                 {project.detailedDescription}
               </p>
-              {(project.liveUrl || project.githubUrl) && (
-                <a
-                  href={project.liveUrl ?? project.githubUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center rounded-lg bg-[#dba11c] px-6 py-3 font-body text-sm font-medium text-[#402e32] transition-colors hover:bg-[#dba11c]/90"
-                  aria-label={`View ${project.title} project`}
-                  title={`View ${project.title}`}
-                >
-                  View Project
-                </a>
-              )}
+              <a
+                href={(project.liveUrl ?? project.githubUrl) || "#"}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center rounded-lg bg-[#dba11c] px-6 py-3 font-body text-sm font-medium text-[#402e32] transition-colors hover:bg-[#dba11c]/90"
+                aria-label={`View ${project.title} project`}
+                title={`View ${project.title}`}
+              >
+                View Project
+              </a>
             </div>
           </motion.div>
         </motion.div>

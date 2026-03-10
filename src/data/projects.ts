@@ -39,6 +39,7 @@ export const projects: Project[] = [
     detailedDescription:
       "A Chrome extension that accelerates job hunting by scanning postings for customizable keywords (remote work, tech stack, role type) and highlighting matches with color-coded categories. Integrated with Google's Gemini API, it provides instant AI-powered analysis of job-CV compatibility. Built with React and Manifest V3, featuring template management, local storage for privacy, and an intuitive floating UI that appears on any job posting page.",
     image: jobScannerImg,
+    githubUrl: "https://github.com/cslylla/job-scanner-chrome-extension"
   },
   {
     id: "prehistoric-leap",
@@ -48,6 +49,7 @@ export const projects: Project[] = [
     detailedDescription:
       "This arcade survival game demonstrates the transition of a local Python application to a web-based environment using WebAssembly (Wasm). By leveraging the Pygbag engine and GitHub Actions, the project features a fully automated CI/CD pipeline that compiles and deploys the game to GitHub Pages upon every push. It highlights skills in asynchronous programming, asset optimization for the web (OGG conversion), and modern deployment workflows, making a complex Python codebase accessible through any standard browser.",
     image: prehistoricLeapImg,
+    liveUrl: "cslylla.github.io/prehistoric-leap/"
   },
   {
     id: "tagflow",
@@ -57,6 +59,7 @@ export const projects: Project[] = [
     detailedDescription:
       "TagFlow is a full-stack note-taking web application that allows users to create, edit, and organise notes using tags, sorting, and filtering. Built with Next.js and React, it uses Prisma with a PostgreSQL database for persistence and Clerk for secure authentication. The app also integrates an optional AI summary feature via the SheCodes AI API, demonstrating practical backend integration and thoughtful UX for handling the unsaved state.",
     image: tagflowImg,
+    liveUrl: "https://tagflow-note.vercel.app/"
   },
   {
     id: "discord-stream-viewer",
@@ -66,6 +69,7 @@ export const projects: Project[] = [
     detailedDescription:
       "This full-stack project connects a Discord bot with a browser-based frontend to stream messages in real time. A Python backend listens to Discord events, exposes a streaming API, and serves a minimal UI that displays both recent message history and live updates. The project emphasises backend integration, async communication, and deployment of a working end-to-end system.",
     image: discordStreamViewerImg,
+    liveUrl: "https://discord-stream-viewer.onrender.com/"
   },
   {
     id: "charmed",
@@ -75,6 +79,7 @@ export const projects: Project[] = [
     detailedDescription:
       "This project is a client-side web application that integrates an external AI API to transform user-provided text into stylistically altered output. It demonstrates API consumption, asynchronous request handling, and dynamic UI updates using vanilla JavaScript, HTML, and CSS. The app focuses on simplicity, responsiveness, and clear user feedback during longer-running API calls, while maintaining a polished, accessible interface suitable for both desktop and mobile use.",
     image: charmedImg,
+    liveUrl: "https://elegant-melomakarona-72305b.netlify.app/"
   },
   {
     id: "dictionary",
@@ -84,6 +89,7 @@ export const projects: Project[] = [
     detailedDescription:
       "With this web app you can search for almost any words and it will display the meanings, phonetics and pictures of that word. You can also listen to the pronunciation of the word. This app is built with React components and API integration, it is responsive and it is SEO friendly. It also has a dark mode button where you can change the background color of the app.",
     image: dictionaryImg,
+    liveUrl: "https://adoring-colden-97a16c.netlify.app/"
   },
   {
     id: "simple-weather",
@@ -93,6 +99,7 @@ export const projects: Project[] = [
     detailedDescription:
       "This web app will display the current weather conditions and a five-day forecast for each city you search for with API integration and animated weather icons with React components. You can also use the 'My location' button to show the weather and forecast for your location. It has improved responsiveness and it is SEO friendly. You also get a random quote whenever you load the page.",
     image: simpleWeatherImg,
+    liveUrl: "https://vigorous-swartz-f1085f.netlify.app/"
   },
   {
     id: "world-clock",
@@ -102,5 +109,6 @@ export const projects: Project[] = [
     detailedDescription:
       "Discover the World Clock web application, where you can effortlessly explore the current times and dates across different global locations. The app offers an intuitive interface and dark and light modes and leverages JavaScript, HTML, CSS, and moment.js to ensure precise timekeeping.",
     image: worldClockImg,
+    liveUrl: "https://astounding-boba-ba0f20.netlify.app/"
   },
 ];
