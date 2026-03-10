@@ -13,7 +13,12 @@ const cabin = Cabin({
   subsets: ["latin"],
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://lillacsanaky.dev";
+// Use Vercel's URL when deployed, or custom domain from env
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ??
+  (process.env.VERCEL_URL
+    ? `https://${process.env.VERCEL_URL}`
+    : "https://lillacsanaky.dev");
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -45,7 +50,7 @@ export const metadata: Metadata = {
       "Customer-facing engineering experience across integrations, automation, debugging, onboarding, and cross-functional delivery in SaaS environments.",
     images: [
       {
-        url: "/og-preview.png",
+        url: `${siteUrl}/og-preview.png`,
         width: 1200,
         height: 630,
         alt: "Lilla Csanaky - Customer Solutions Engineer",
@@ -57,6 +62,7 @@ export const metadata: Metadata = {
     title: "Lilla Csanaky | Customer Solutions Engineer",
     description:
       "Customer-facing engineering experience across integrations, automation, and technical delivery in SaaS environments.",
+    images: [`${siteUrl}/og-preview.png`],
   },
   robots: {
     index: true,
