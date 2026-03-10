@@ -49,7 +49,7 @@ export const projects: Project[] = [
     detailedDescription:
       "This arcade survival game demonstrates the transition of a local Python application to a web-based environment using WebAssembly (Wasm). By leveraging the Pygbag engine and GitHub Actions, the project features a fully automated CI/CD pipeline that compiles and deploys the game to GitHub Pages upon every push. It highlights skills in asynchronous programming, asset optimization for the web (OGG conversion), and modern deployment workflows, making a complex Python codebase accessible through any standard browser.",
     image: prehistoricLeapImg,
-    liveUrl: "cslylla.github.io/prehistoric-leap/"
+    liveUrl: "https://cslylla.github.io/prehistoric-leap/"
   },
   {
     id: "tagflow",
