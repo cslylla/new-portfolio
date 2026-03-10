@@ -13,9 +13,9 @@ const certifications = [
   {
     name: "Learn Tableau for Data Visualization Course",
     issuer: "Codecademy Verified",
-    date: "May 2023",
+    date: "May 2024",
   },
-  { name: "Automation Pro I & II", issuer: "Workato Verified", date: "May 2023" },
+  { name: "Workato Foundations Level 1 & 2", issuer: "Workato Verified", date: "Jan 2026" },
   {
     name: "Technical Support Fundamentals",
     issuer: "Coursera Verified",
