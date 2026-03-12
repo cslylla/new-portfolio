@@ -3,8 +3,10 @@
 import { motion } from "framer-motion";
 
 const certifications = [
-  { name: "Intro to OpenAI API", issuer: "Codecademy Verified", date: "Dec 2025" },
+  
+  { name: "AI Maker: Learn to Build with AI Tools Professional Certification", issuer: "Codecademy Verified", date: "Mar 2026" },
   { name: "Intro to AI Agents", issuer: "Codecademy Verified", date: "Dec 2025" },
+  { name: "Intro to OpenAI API Course", issuer: "Codecademy Verified", date: "Dec 2025" },
   {
     name: "Certified Customer Success Manager (CCSM) Level 2",
     issuer: "SuccessHACKER Verified",
