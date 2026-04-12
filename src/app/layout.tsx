@@ -23,13 +23,13 @@ const siteUrl =
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Lilla Csanaky | Customer Solutions Engineer",
+    default: "Lilla Csanaky | Forward Deployed Engineer",
     template: "%s | Lilla Csanaky",
   },
   description:
     "Professional experience in customer-facing engineering, integrations, automation, and technical delivery. Work across APIs, iPaaS (Workato), debugging, and cross-functional collaboration in SaaS environments.",
   keywords: [
-    "Customer Solutions Engineer",
+    "Forward Deployed Engineer",
     "integrations",
     "automation",
     "Workato",
@@ -45,14 +45,14 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: siteUrl,
     siteName: "Lilla Csanaky",
-    title: "Lilla Csanaky | Customer Solutions Engineer",
+    title: "Lilla Csanaky | Forward Deployed Engineer",
     description:
       "Customer-facing engineering experience across integrations, automation, debugging, onboarding, and cross-functional delivery in SaaS environments.",
     // Image handled by app/opengraph-image.png (Next.js file convention)
   },
   twitter: {
     card: "summary_large_image",
-    title: "Lilla Csanaky | Customer Solutions Engineer",
+    title: "Lilla Csanaky | Forward Deployed Engineer",
     description:
       "Customer-facing engineering experience across integrations, automation, and technical delivery in SaaS environments.",
     // Image handled by opengraph-image.png (shared with OG)
