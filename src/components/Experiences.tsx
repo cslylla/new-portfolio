@@ -8,7 +8,7 @@ const experiences = [
   {
     role: "Customer Solutions Engineer",
     company: "Beekeeper AG",
-    period: "Nov 2023 - Present",
+    period: "Nov 2023 - Mar 2026",
     description:
       "Built HRIS/payroll/LMS integrations using Workato, APIs, and Python. Led technical onboarding for enterprise customers and partnered with Product/Engineering to turn customer feedback into features.",
   },

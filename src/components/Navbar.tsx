@@ -111,11 +111,11 @@ export function Navbar() {
             />
             <motion.div
               key="menu"
-              initial={{ x: "100%" }}
-              animate={{ x: 0 }}
-              exit={{ x: "100%" }}
+              initial={{ opacity: 0, y: -8 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -8 }}
               transition={{ type: "tween", duration: 0.2 }}
-              className="fixed right-0 top-0 z-50 flex h-full w-64 flex-col gap-6 bg-[#dba11c] p-6 pt-20 shadow-2xl md:hidden"
+              className="fixed left-0 right-0 top-16 z-50 flex flex-col gap-6 bg-[#dba11c] p-6 shadow-2xl md:hidden"
             >
               {navLinks.map((link) => (
                 <Link
