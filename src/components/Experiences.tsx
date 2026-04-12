@@ -33,7 +33,7 @@ const extracurricular = [
     role: "Open-Source Contributor (Technical Writer)",
     organization: "Codecademy",
     location: "Online",
-    period: "Nov 2022 — Nov 2023",
+    period: "Nov 2022 — Feb 2026",
   },
   {
     role: "Educational Content Translator",
