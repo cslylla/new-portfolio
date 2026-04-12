@@ -1,0 +1,60 @@
+# Lilla Csanaky
+
+> Forward Deployed Engineer and Customer Solutions Engineer based in Switzerland, relocating to Berlin. Bridges customers, engineering, and product in SaaS and AI-first environments through integrations, automation, and technical delivery.
+
+## About
+
+Lilla Csanaky is a customer-facing engineer with 10+ years of experience across regulated industries and SaaS. She builds integrations, automates workflows, and ships scalable technical solutions end-to-end. She moves fast, adopts new tools quickly — including AI tooling — and operates at the intersection of technical implementation and customer problem-solving. She is actively seeking Forward Deployed Engineer and Solutions Engineer roles in Berlin.
+
+## Technical Skills
+
+- **Integrations & Systems:** APIs, Webhooks, SSO (SAML, OAuth), SFTP, Data sync
+- **Code & Tools:** Python, JavaScript, Node.js, SQL, Workato, Postman, Git, JSON, CLI
+- **AI & Automation:** Gemini API, Claude API, agentic workflows, prompt engineering, n8n, Zapier, Make
+- **Delivery:** Root cause analysis, debugging, technical documentation, Jira/Confluence
+- **Web:** React, Next.js, HTML/CSS, GitHub Actions, Vercel, Netlify
+- **Currently learning:** Claude Code, agentic AI patterns, tool use
+
+## Experience
+
+- **Customer Solutions Engineer | Beekeeper AG, Switzerland** (Oct 2023 — Mar 2026): Designed and implemented scalable integrations between SaaS systems using APIs, webhooks, Workato, and Python. Led technical onboarding for enterprise customers. Built internal tools to simplify integration delivery. Collaborated across product, engineering, and customer success.
+- **Front-End Engineer | Intersys AG, Switzerland** (Aug 2022 — Oct 2023): Developed full-stack web applications including concept, design, and project management.
+- **Software Engineer Intern | seerow GmbH, Switzerland** (Sep 2021 — Jul 2022): Built a CRUD web application with REST API, tested with Postman.
+- **Regulatory Inspection Lead | Biogen, Switzerland** (Apr 2020 — Jun 2021): Led maintenance planning for 2000+ equipment in a regulated environment.
+- **Manufacturing Support Associate | Biogen, Switzerland** (Apr 2017 — Mar 2020): Trained 100+ users, coordinated onboarding for 500+ employees, tested manufacturing software.
+
+## AI Projects & Learning
+
+- **Actually Remote** — AI-powered job alert bot using Google Gemini API with agentic discovery patterns. The companion agent uses Gemini with Google Search grounding to autonomously find remote-friendly companies. Python, GitHub Actions, open source.
+- **Codecademy AI Maker Bootcamp** — Completed bootcamp focused on building AI-powered applications and agentic patterns.
+- Actively building with Claude Code CLI for development workflow automation.
+- Exploring agentic AI architecture, tool use, and multi-step reasoning in personal projects.
+
+## Projects
+
+- **Actually Remote** — AI-powered job alert bot for remote-first tech roles. Python, Gemini API, GitHub Actions, Discord/Telegram/email notifications. Open source, 100+ companies tracked. github.com/cslylla/actually-remote
+- **TagFlow** — Full-stack note-taking app with AI summaries. Next.js, React, Prisma, PostgreSQL, Clerk.
+- **Prehistoric Leap** — Arcade game compiled to WebAssembly, deployed via CI/CD to GitHub Pages.
+
+## Open Source & Community
+
+- Technical Writer at Codecademy open-source Docs (40+ articles)
+- Participated in five hackathons (one category win, including HackZurich)
+- Educational Content Translator at Khan Academy
+- Swiss Chapter Co-Lead at Women's Innovation Network
+
+## Languages
+
+- Hungarian (native), English (fluent), German (working proficiency)
+
+## Location & Availability
+
+- Currently based in Zuchwil, Switzerland
+- Relocating to Berlin, Germany
+- Open to Berlin-based and remote roles
+
+## Links
+
+- Website: https://lillacsanaky.dev
+- GitHub: https://github.com/cslylla
+- LinkedIn: https://www.linkedin.com/in/lillacsanaky/
